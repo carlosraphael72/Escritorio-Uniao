@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+
+body{
+	background-color: #f7f9fc;
+}
+div#geral{
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	height: 1000px;
+	width: 900px;
+	margin: 0 auto;
+	padding: 3px;
+}
+h1#titulo{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 50px;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+img#img_escritorio{
+	position: absolute;
+	right: 280px;
+}
+
+.menu ul li{
+	background-color: #0762f4;
+	color: white;
+	float: left;
+	width: 206px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	/*border: 1px solid black;*/
+	position: relative;
+}
+.menu ul li:hover{
+	background-color: #6da3f9;
+}
+.menu ul{
+	padding: 0;
+}
+.menu ul ul{
+	display: none;
+}
+.menu ul li:hover > ul{
+	display: block;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
+.menu{
+position: absolute;
+top: 97px;
+left: 240px;
+}
